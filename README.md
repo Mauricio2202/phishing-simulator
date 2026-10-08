@@ -18,19 +18,17 @@ npm --version
 
 ## 1. Clonar el repositorio
 
-En GitHub, abre el repositorio, selecciona **Code** y copia su URL HTTPS o SSH. En Git Bash, ve a la carpeta donde quieras guardar el proyecto y ejecuta:
+En Git Bash, ve a la carpeta donde quieras guardar el proyecto y clona el repositorio:
 
 ```bash
 cd /c/ruta/a/la/carpeta/donde/guardar/proyectos
-git clone URL_COPIADA_DEL_REPOSITORIO
+git clone https://github.com/Mauricio2202/phishing-simulator.git
 ```
 
-Reemplaza `URL_COPIADA_DEL_REPOSITORIO` por la URL que copiaste de GitHub. Por ejemplo, una URL HTTPS tiene esta forma: `https://github.com/organizacion/repositorio.git`.
-
-Entra a la carpeta creada por Git. Sustituye `nombre-del-repositorio` por el nombre de esa carpeta:
+Entra a la carpeta del proyecto:
 
 ```bash
-cd nombre-del-repositorio
+cd phishing-simulator
 ```
 
 ## 2. Abrir el proyecto en Visual Studio Code
